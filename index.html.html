@@ -4,7 +4,6 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            font-size: 19px;
             color: black;
             background-color: lightblue;
             text-align: center;
@@ -19,13 +18,21 @@
         .section {
             margin: 20px 0;
         }
+        iframe {
+            width: 560px;
+            height: 315px;
+            border-radius: 10px;
+            border: none;
+        }
     </style>
 </head>
 <body>
     <div class="section">
         <h2>OPS Plan Overview</h2>
         <p>Inderjeet - Help Desk Supervisor</p>
-        <img src="Inderjeet.jpg.jpg" alt="Inderjeet's Selfie">
+        
+        <!-- Embedded Video -->
+        <iframe src="https://www.youtube.com/embed/ld7UV88JUK4" allowfullscreen></iframe>
     </div>
     
     <div class="section">
@@ -59,7 +66,7 @@
     
     <div class="section">
         <h3>Feedback</h3>
-        <p>Open to feedback. Contact: singhinderjeet@gmail.com | (437)8700018</p>
+        <p>Open to feedback. Contact: singhinderjeet@gmail.com | (437) 870-0018</p>
     </div>
 </body>
 </html>
